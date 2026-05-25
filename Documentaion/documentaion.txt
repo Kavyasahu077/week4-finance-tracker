@@ -1,0 +1,299 @@
+# Personal Finance Tracker
+
+## Project Description
+
+Personal Finance Tracker is a Python-based application developed to help users manage their daily expenses efficiently. The program allows users to add, store, search, categorize, and analyze expenses while maintaining records using file handling techniques.
+
+This project combines Python concepts from Weeks 1–4 including:
+
+* Functions
+* Dictionaries & Lists
+* File Handling
+* JSON & CSV Operations
+* Error Handling
+* Modular Programming
+
+The application provides a simple command-line interface that makes expense tracking easy and organized.
+
+---
+
+# Features
+
+* Add new expenses with validation
+* Categorize expenses (Food, Bills, Transport, Entertainment, etc.)
+* Store data permanently using JSON files
+* Load saved expenses automatically
+* Search expenses by category or keyword
+* Generate monthly expense reports
+* Display category-wise expense breakdown
+* Export expense data to CSV format
+* Backup and restore expense data
+* User-friendly menu system
+* Error handling for invalid inputs
+
+---
+
+# Technologies Used
+
+* Python 3
+* VS Code
+* JSON
+* CSV Module
+
+---
+
+# Concepts Used
+
+* Functions
+* Classes & Objects
+* Dictionaries & Lists
+* File Handling
+* JSON Operations
+* CSV Export
+* Exception Handling
+* Loops & Conditionals
+* Input Validation
+* Modular Code Structure
+
+---
+
+# Project Structure
+
+week4-finance-tracker/
+
+│── finance_tracker/
+│   ├── **init**.py
+│   ├── main.py
+│   ├── expense.py
+│   ├── expense_manager.py
+│   ├── file_handler.py
+│   ├── reports.py
+│   └── utils.py
+
+│── data/
+│   ├── expenses.json
+│   ├── backup/
+│   └── exports/
+
+│── tests/
+│   ├── test_expense.py
+│   ├── test_file_handler.py
+│   └── test_reports.py
+
+│── requirements.txt
+│── README.md
+│── .gitignore
+└── run.py
+
+---
+
+# How to Run the Program
+
+## Step 1
+
+Make sure Python is installed on your system.
+
+Check using:
+
+python --version
+
+---
+
+## Step 2
+
+Open the project folder in VS Code.
+
+---
+
+## Step 3
+
+Open terminal in VS Code.
+
+Shortcut:
+
+Ctrl + `
+
+---
+
+## Step 4
+
+Navigate to the project folder:
+
+cd week4-finance-tracker
+
+---
+
+## Step 5
+
+Run the application:
+
+python run.py
+
+---
+
+# Sample Menu
+
+============================================================
+PERSONAL FINANCE TRACKER
+========================
+
+1. Add New Expense
+2. View All Expenses
+3. Search Expenses
+4. Generate Monthly Report
+5. View Category Breakdown
+6. Set Budget
+7. Export Data to CSV
+8. View Statistics
+9. Backup Data
+10. Exit
+
+---
+
+# Sample Output
+
+--- ADD NEW EXPENSE ---
+
+Enter amount: 250
+Enter category: Food
+Enter description: Pizza
+
+✅ Expense added successfully!
+
+---
+
+# What I Learned
+
+Through this project, I learned:
+
+* How to organize large Python projects into modules
+* How to save and load data using JSON files
+* How to export data using CSV files
+* How to use classes and objects in Python
+* How to implement file handling with error management
+* How to validate user inputs properly
+* How to build menu-driven applications
+* How to generate reports and statistics
+
+---
+
+# Technical Details
+
+## Data Structure Used
+
+Expenses are stored as dictionaries inside lists.
+
+Example:
+
+expense = {
+"amount": 250,
+"category": "Food",
+"description": "Pizza"
+}
+
+---
+
+## File Handling
+
+* JSON files are used for permanent data storage
+* CSV files are used for exporting reports
+* Backup files help recover data if needed
+
+---
+
+## Error Handling
+
+The project uses:
+
+* try-except
+* Input validation
+* File existence checks
+
+to prevent crashes and invalid data entry.
+
+---
+
+# Testing
+
+The application was tested with:
+
+* Normal expense entries
+* Invalid amount inputs
+* Empty category names
+* Missing JSON files
+* Exporting reports to CSV
+* Backup and restore operations
+
+All features were tested successfully.
+
+---
+
+# Challenges & Solutions
+
+## Challenge 1
+
+Handling invalid user input.
+
+### Solution
+
+Used input validation and exception handling using try-except.
+
+---
+
+## Challenge 2
+
+Saving data permanently.
+
+### Solution
+
+Implemented JSON file handling using Python's json module.
+
+---
+
+## Challenge 3
+
+Organizing a large project.
+
+### Solution
+
+Separated the application into multiple modules for better structure and readability.
+
+---
+
+# Visual Documentation
+
+Add screenshots here showing:
+
+* Main menu
+* Adding expenses
+* Viewing reports
+* CSV export
+* Statistics section
+
+---
+
+# Quality Standards Checklist
+
+✓ Project Overview
+✓ Setup Instructions
+✓ Code Structure
+✓ Visual Documentation
+✓ Technical Details
+✓ Testing Evidence
+
+---
+
+# Future Improvements
+
+* Add graphical charts using Matplotlib
+* Create GUI version using Tkinter
+* Add user authentication
+* Add recurring expense reminders
+* Add cloud backup support
+
+---
+
+# Author
+
+Kavya Sahu
+Python Internship Project – Week 4

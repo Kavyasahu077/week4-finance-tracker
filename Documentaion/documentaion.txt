@@ -15,8 +15,6 @@ This project combines Python concepts from Weeks 1–4 including:
 
 The application provides a simple command-line interface that makes expense tracking easy and organized.
 
----
-
 # Features
 
 * Add new expenses with validation
@@ -31,16 +29,12 @@ The application provides a simple command-line interface that makes expense trac
 * User-friendly menu system
 * Error handling for invalid inputs
 
----
-
 # Technologies Used
 
 * Python 3
 * VS Code
 * JSON
 * CSV Module
-
----
 
 # Concepts Used
 
@@ -54,8 +48,6 @@ The application provides a simple command-line interface that makes expense trac
 * Loops & Conditionals
 * Input Validation
 * Modular Code Structure
-
----
 
 # Project Structure
 
@@ -85,8 +77,6 @@ week4-finance-tracker/
 │── .gitignore
 └── run.py
 
----
-
 # How to Run the Program
 
 ## Step 1
@@ -97,13 +87,9 @@ Check using:
 
 python --version
 
----
-
 ## Step 2
 
 Open the project folder in VS Code.
-
----
 
 ## Step 3
 
@@ -113,23 +99,17 @@ Shortcut:
 
 Ctrl + `
 
----
-
 ## Step 4
 
 Navigate to the project folder:
 
 cd week4-finance-tracker
 
----
-
 ## Step 5
 
 Run the application:
 
 python run.py
-
----
 
 # Sample Menu
 
@@ -148,8 +128,6 @@ PERSONAL FINANCE TRACKER
 9. Backup Data
 10. Exit
 
----
-
 # Sample Output
 
 --- ADD NEW EXPENSE ---
@@ -159,8 +137,6 @@ Enter category: Food
 Enter description: Pizza
 
 ✅ Expense added successfully!
-
----
 
 # What I Learned
 
@@ -174,8 +150,6 @@ Through this project, I learned:
 * How to validate user inputs properly
 * How to build menu-driven applications
 * How to generate reports and statistics
-
----
 
 # Technical Details
 
@@ -191,15 +165,11 @@ expense = {
 "description": "Pizza"
 }
 
----
-
 ## File Handling
 
 * JSON files are used for permanent data storage
 * CSV files are used for exporting reports
 * Backup files help recover data if needed
-
----
 
 ## Error Handling
 
@@ -210,8 +180,6 @@ The project uses:
 * File existence checks
 
 to prevent crashes and invalid data entry.
-
----
 
 # Testing
 
@@ -226,8 +194,6 @@ The application was tested with:
 
 All features were tested successfully.
 
----
-
 # Challenges & Solutions
 
 ## Challenge 1
@@ -238,8 +204,6 @@ Handling invalid user input.
 
 Used input validation and exception handling using try-except.
 
----
-
 ## Challenge 2
 
 Saving data permanently.
@@ -248,8 +212,6 @@ Saving data permanently.
 
 Implemented JSON file handling using Python's json module.
 
----
-
 ## Challenge 3
 
 Organizing a large project.
@@ -257,8 +219,6 @@ Organizing a large project.
 ### Solution
 
 Separated the application into multiple modules for better structure and readability.
-
----
 
 # Visual Documentation
 
@@ -270,8 +230,6 @@ Add screenshots here showing:
 * CSV export
 * Statistics section
 
----
-
 # Quality Standards Checklist
 
 ✓ Project Overview
@@ -281,8 +239,6 @@ Add screenshots here showing:
 ✓ Technical Details
 ✓ Testing Evidence
 
----
-
 # Future Improvements
 
 * Add graphical charts using Matplotlib
@@ -290,8 +246,6 @@ Add screenshots here showing:
 * Add user authentication
 * Add recurring expense reminders
 * Add cloud backup support
-
----
 
 # Author
 
